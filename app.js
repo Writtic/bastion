@@ -3,9 +3,9 @@ const Bot = require('messenger-bot')
 const process = require('process')
 
 let bot = new Bot({
-  token: '97431de067de9a6a581a5984b3b0c1c7',
+  token: 'EAAO18AsM3GkBAGp2IEgxMJ0nfHKWhg4Hb6AOak5j8bltj0TmOqkmu558pJ1oho36TZByTqMQbLEh9Li95Sx0IB4bv6TCZChJGyZAdUJT1fRrhfEJqLQUhAIPxXFpzEOKtfoDC6H4gTXxWI8LWmRwXVHlYvjGpzemZB26RraeOAZDZD',
   verify: 'helloworld',
-  app_secret: 'EAAO18AsM3GkBAGp2IEgxMJ0nfHKWhg4Hb6AOak5j8bltj0TmOqkmu558pJ1oho36TZByTqMQbLEh9Li95Sx0IB4bv6TCZChJGyZAdUJT1fRrhfEJqLQUhAIPxXFpzEOKtfoDC6H4gTXxWI8LWmRwXVHlYvjGpzemZB26RraeOAZDZD'
+  app_secret: '97431de067de9a6a581a5984b3b0c1c7'
 })
 
 bot.on('error', (err) => {
